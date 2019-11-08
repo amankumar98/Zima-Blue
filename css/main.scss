@@ -1,0 +1,16 @@
+$colors:(
+    zima: #35c0fa, 
+    
+);
+
+@function color($color-name){
+    @return map-get($colors, $color-name)
+}
+
+body {
+    font-family: Montserrat;
+    background-color: color(zima);
+    color: white;
+    position: relative;
+    text-align: center;
+}
