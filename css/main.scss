@@ -1,6 +1,6 @@
 $colors:(
-    zima: #35c0fa, 
-    
+    zima: #01CDFE,
+    bg: #F7F7F7
 );
 
 @function color($color-name){
@@ -8,9 +8,5 @@ $colors:(
 }
 
 body {
-    font-family: Montserrat;
-    background-color: color(zima);
-    color: white;
-    position: relative;
-    text-align: center;
+ 
 }

@@ -1,8 +1,14 @@
 body {
+  margin: 0;
   font-family: Montserrat;
-  background-color: #35c0fa;
-  color: white;
-  position: relative;
-  text-align: center;
+  background-color: #F7F7F7;
+}
+
+body .background {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /*# sourceMappingURL=main.css.map */
